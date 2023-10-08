@@ -1,0 +1,168 @@
+/*
+Theme Name: juliamatheme
+Description: Um tema personalizado para o meu site.
+Author: mike
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+
+    --cor1: #832161;
+    --cor2: #F2DCE0;
+    --cor3: #F2AEC7;
+    --cor4: #000000;
+    --cor5: #ffff;
+    --font-pri: 'Josefin Sans', sans-serif;
+    --font-seg: 'Berkshire Swash', cursive;
+
+    /* font-family: 'Berkshire Swash', cursive;
+        font-family: 'Josefin Sans', sans-serif; */
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container1{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container8{
+    max-width: 800px;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.space{
+    padding: 10px 10px;
+}
+
+.spaceud{
+    padding: 10px 0px;
+}
+
+.spacelr{
+    padding: 0px 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ------------ */
+
+header{
+    background-color: var(--cor3);
+}
+
+header div.logo{  
+    display: inline;
+    
+}
+
+header div.logo a{
+    color: var(--cor5);
+    font-family: var(--font-seg);
+    font-size: 20px;
+}
+
+header div.social{
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+header div.social a{
+    margin-right: 15px;
+    color: var(--cor5);
+    
+}
+
+header i{
+    color: var(--cor5);
+}
+
+header div.social a:hover{
+    color: var(--cor4);
+}
+/* -----header acima------ */
+
+
+section.banner{
+    background-image:url(../img/bannerdaju.jpg) ;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+section.titulo .titulo_{
+    padding-bottom: 15px;
+}
+
+section.titulo .titulo_ h2{
+    font-size: 30px;
+    font-family: var(--font-seg);
+    color: var(--cor3);
+}
+
+
+section.titulo .line{
+    max-width: 200px;
+    padding: 2px 10px;
+    background-color: var(--cor3);
+    position: relative;
+    border-radius: 10px;
+}
+
+section.titulo .line_{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 8px;
+    background-color: var(--cor5);
+    color: var(--cor3);
+    font-size: 20px;
+}
+
+section.galeria img{
+    border-radius: 10px;
+    padding: 6px;
+}
+
+/* ---- footer --- */
+
+footer{
+    background-color: var(--cor4);
+}
+
+footer div span{
+    color: var(--cor3);
+    font-size: 18px;
+}
