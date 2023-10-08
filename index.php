@@ -11,8 +11,23 @@
     <title>JulianaMenendes</title>
 </head>
 <body>
-    
-<?php include('menu.php'); ?>
+
+<header> 
+            <div class="container space">
+
+                <div class="logo">
+                    <a href="#">Juliana Menendes</a>
+                </div>
+
+                <div class="social right">
+                    <i class="fa-brands fa-facebook-f "></i><a href="#"> Facebook</a>
+                    <i class="fa-brands fa-instagram "></i><a href="#"> instagram</a>
+                    <i class="fa-brands fa-pinterest-p "></i><a href="#"> pinterest</a>
+                    <i class="fa-brands fa-youtube "></i><a href="#"> youtube</a>
+                </div>
+                    <div class="clear"></div>
+            </div>
+        </header>   
 
 <section class="banner"></section>
 
@@ -49,6 +64,12 @@
     </div>
 </section>
 
-<?php include('footer.php'); ?>
+<footer>
+        <div class="container center spaceud">
+            <div class="spaceud">
+                <span>criado por Mike Menendes</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
